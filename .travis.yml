@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
   app: "MyWebApp"
-  env: "mywebapp-evn"
+  env: "MyWebApp-evn"
   bucket_name: "elasticbeanstalk-us-east-2-130110116752"
   bucket_path: "MyWebApp"
   on: 
