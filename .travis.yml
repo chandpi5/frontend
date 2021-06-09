@@ -2,7 +2,9 @@ sudo: required
 services:
   - docker
 language: generic
+
 ENV CI=true
+
 before_install:
   - docker build -t frontend -f Dockerfile .
 
